@@ -16,4 +16,7 @@ extent.attachReport(esp);
 ExtentTest test =extent.creatTest();
 test.log("logstatus.pass", "pass");
 
+test.log("logstatus.fail", "fail");
+
 extent.flush();
+
