@@ -18,8 +18,10 @@ test.log("logstatus.pass", "pass");
 
 test.log("logstatus.fail", "fail");
 
-test.log("logstatus.video", "video");
+test.log("logstatus.skip", "skip");
+
 
 extent.flush();
+
 
 
