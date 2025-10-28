@@ -20,8 +20,11 @@ test.log("logstatus.fail", "fail");
 
 test.log("logstatus.skip", "skip");
 
+test.log("logstatus.faile2", "fail");
+
 
 extent.flush();
+
 
 
 
