@@ -1,11 +1,6 @@
 Webelement columTable = driver.findElement(By.xpath('//tbody[th]/li');
 
-for(int i=0;i<=columTable;i++){
 
-if(i.getText().equals("visva")){
-i
-}
-}
 
 ExtentSparkReporter esp = new ExtentSparkReporter("./report.html");
 
@@ -24,6 +19,7 @@ test.log("logstatus.faile2", "fail");
 
 
 extent.flush();
+
 
 
 
